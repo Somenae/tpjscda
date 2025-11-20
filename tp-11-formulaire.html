@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des utilisateurs</title>
+    <script src="./modale-view.js"></script>
+    <script src="./api.js"></script>
+</body>
+</head>
+<body>
+    <button onclick="openModale('modale1')">Créer</button>
+    <div id="contenu-tableau">
+            <div class="loading">Chargement des utilisateurs...</div>
+        </div>
+    <modale-view id="modale1" modale-width="20%"> 
+        <div slot="title" header-color="#dc3545">Créer un utilisateur</div> 
+        <div slot="body"> 
+            <form action="http://localhost:3000/utilisateurs" method="post">
+                <label for="nom">Nom de famille</label>
+                <input type="text" name="nom" id="nom">
+
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom">
+
+                <label for="dateNaissance">Date de naissance</label>
+                <input type="date" name="dateNaissance" id="dateNaissance">
+
+                <label for="departementNaissance">Département de Naissance</label>
+                <input type="number" name="departementNaissance" id="departementNaissance">
+
+                <label for="lieuNaissance">Ville de naissance</label>
+                <input type="text" name="lieuNaissance" id="lieuNaissance">
+
+                <label for="numeroRue">Numéro rue</label>
+                <input type="number" name="numeroRue" id="numeroRue">
+
+                <label for="libelleRue">Nom de rue</label>
+                <input type="text" name="libelleRue" id="libelleRue">
+
+                <label for="codePostal">Code Postal</label>
+                <input type="number" name="codePostal" id="codePostal">
+
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville">
+
+                <button type="submit">Valider</button>
+            </form>
+        </div> 
+        <div slot="footer"> 
+            <input type="button" value="Annuler" onclick="closeModale('modale1')">  
+            <input type="button" value="Valider" onclick="creerUtilisateur()"> 
+        </div> 
+    </modale-view>
+
+</html>

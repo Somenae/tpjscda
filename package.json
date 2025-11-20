@@ -1,0 +1,12 @@
+{
+  "name": "tpjsonserveur",
+  "version": "1.0.0",
+  "description": "TP gestion utilisateurs avec JSON Server",
+  "scripts": {
+    "start": "json-server --watch utilisateurs.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
+

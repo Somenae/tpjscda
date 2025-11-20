@@ -1,0 +1,52 @@
+{
+  "utilisateurs": [
+    {
+      "id": 2,
+      "nom": "Martin",
+      "prenom": "Sophie",
+      "dateNaissance": "1990-07-22",
+      "lieuNaissance": "Lyon",
+      "departementNaissance": "69",
+      "numeroRue": "45",
+      "libelleRue": "Avenue des Champs",
+      "codePostal": "69003",
+      "ville": "Lyon"
+    },
+    {
+      "id": 4,
+      "nom": "Dubois",
+      "prenom": "Marie",
+      "dateNaissance": "1995-02-14",
+      "lieuNaissance": "Toulouse",
+      "departementNaissance": "31",
+      "numeroRue": "23",
+      "libelleRue": "Rue Saint-Michel",
+      "codePostal": "31000",
+      "ville": "Toulouse"
+    },
+    {
+      "id": 5,
+      "nom": "Petit",
+      "prenom": "Luc",
+      "dateNaissance": "1982-09-30",
+      "lieuNaissance": "Nice",
+      "departementNaissance": "06",
+      "numeroRue": "56",
+      "libelleRue": "Promenade des Anglais",
+      "codePostal": "06000",
+      "ville": "Nice"
+    },
+    {
+      "nom": "DEVAUX",
+      "prenom": "Kevin",
+      "dateNaissance": "1995-09-21",
+      "departementNaissance": "78",
+      "lieuNaissance": "StCyrLecole",
+      "numeroRue": "20",
+      "libelleRue": "louis",
+      "codePostal": "94800",
+      "ville": "villejuif",
+      "id": 6
+    }
+  ]
+}
